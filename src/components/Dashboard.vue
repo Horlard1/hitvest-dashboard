@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
   .container{
-    padding: 1em;
+    padding: 1em 1em 0;
     height: 100vh;
     overflow: hidden;
     display: flex;

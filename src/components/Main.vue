@@ -14,12 +14,14 @@
         </div>
     </header>
     <Herocards />
+    <Table />
 </div>
 </template>
 <script>
 import Herocards from './Herocards.vue'
+import Table from './Table.vue'
 export default {
-  components: { Herocards },
+  components: { Herocards, Table },
     setup() {
         
     },
@@ -29,10 +31,11 @@ export default {
     .main__contents{
         width: 100%;
         height: 100%;
+        padding: .5em 1em;
         background: rgba(128, 203, 255, 0.1);
     }
     header{
-        padding: 1em;
+        padding: .5em 1em;
         display: flex;
         width: 100%;
         justify-content: space-between;
@@ -43,12 +46,12 @@ export default {
         background: white;
         position: relative;
         border-radius: 10px;
-        height: 60px;
+        height: 50px;
     }
     .icon__holder{
         background: white;
-        width: 58px;
-        height: 58px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -84,7 +87,7 @@ export default {
         cursor: pointer;
     }
     .header img{
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
     }
 </style>
