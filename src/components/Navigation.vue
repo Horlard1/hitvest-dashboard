@@ -71,9 +71,6 @@ export default {
     ul li.active{
         background: rgba(8, 98, 160, 1);
     }
-    /* .main__nav ul li p{
-        color: white;
-    } */
     .display__details{
         display: flex;
         flex-direction: column;
